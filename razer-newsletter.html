@@ -36,18 +36,29 @@
 			font-size: 1.8em;
 			text-decoration:none;
 		}
-		#exclusive{
+
+		#exclusive, #keyboard{
 			width:90%;
 			border-top:1px solid #999999;
 			margin:0 auto;
 			display:flex;
 			align-items:center;
+			flex-direction: column-reverse
 		}
 		
+		#keyboard{
+			flex-direction: row-reverse;
+		}
+
 		#column1{
 			margin:20px 50px;
 		}
-		#exclusive p{
+
+		#column1{
+			margin: 20px 50px;
+		}
+
+		#exclusive p,#keyboard{
 			font-size:1.2em;
 			text-align:left;
 			color:#999999;
@@ -99,6 +110,14 @@
 			<div id="column2">
 				<p>Get a Razer.com exclusive <span class="white">Team Razer V2 keychain</span> on orders over $84*. Offer ends 30 April.</p>
 				<p>Use code: <span class="blue">EDUGEARED</span></p>
+			</div>
+		</div>
+
+		<div id="keyboard">
+				<img src="blackwidow.jpg" width="250"/>
+				<div id="column2">
+					<p>The <span class="white">Razer BlackWidow V3 Mini HyperSpeed</span> is ideal for minimalist or smaller setups where desk space is a premium.</p>
+				<p>Use code: <span class="blue">HYPERGEARED</span></p>
 			</div>
 		</div>
 
